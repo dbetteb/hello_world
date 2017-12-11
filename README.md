@@ -52,6 +52,8 @@ Hello, world !
 
 ### C++
 
+#### Raw C++ code
+
 ```cpp
 // hello.cpp
 #include <iostream>
@@ -63,5 +65,43 @@ int main()
     return 0;
 }
 ```
+
+#### Use of code
+
+The previous code should be written and saved in a file named `hello.cpp`, then on UNIX-like systems (Unix, Linux, Mac OS X), on a
+terminal typ
+
+```bash
+g++ -o hello_cpp hello.cpp
+```
+
+Note: on a UNIX-like system ran on Windows (namely that call `.exe` MS Windows), you might need to add a `.exe` ending to run
+the program
+
+```bash
+g++ -o hello_cpp.exe hello.cpp
+```
+
+
+and then run the executable 
+```bash
+./hello_cpp
+```
+
+you should see then
+```bash
+./hello
+Hello, world !
+```
+
+### Python
+
+#### Raw Python code
+
+```python
+print("Hello, World !")
+```
+
+#### Use of code
 
 
