@@ -66,9 +66,7 @@ public class Hello {
 
 #### Use of code
 
-The previous code should be written and saved in a file named `Hello.java`, then on UNIX-like systems (Unix, Linux, Mac OS X), on a
-terminal type
-
+The previous code should be written and saved in a file named `Hello.java`, then
 ```bash
 javac Hello.java
 ```
@@ -133,6 +131,11 @@ print("Hello, World !")
 
 #### Use of code
 
+The previous code should be written in file named `hello.py`, then 
+
+```bash
+python hello.py
+```
 
 
 
