@@ -23,7 +23,7 @@ int main() {
 #### Use of the code
 
 The previous code should be written and saved in a file named `hello.c`, then on UNIX-like systems (Unix, Linux, Mac OS X), on a
-terminal typ
+terminal type
 
 ```bash
 gcc -o hello hello.c
@@ -50,6 +50,35 @@ Hello, world !
 
 ## Object-oriented languages
 
+### Java
+
+#### Raw Java code
+
+```java
+public class Hello {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+
+}
+```
+
+#### Use of code
+
+The previous code should be written and saved in a file named `Hello.java`, then on UNIX-like systems (Unix, Linux, Mac OS X), on a
+terminal type
+
+```bash
+javac Hello.java
+```
+
+and then
+
+```bash
+java Hello.java
+```
+
 ### C++
 
 #### Raw C++ code
@@ -69,7 +98,7 @@ int main()
 #### Use of code
 
 The previous code should be written and saved in a file named `hello.cpp`, then on UNIX-like systems (Unix, Linux, Mac OS X), on a
-terminal typ
+terminal type
 
 ```bash
 g++ -o hello_cpp hello.cpp
@@ -103,5 +132,7 @@ print("Hello, World !")
 ```
 
 #### Use of code
+
+
 
 
