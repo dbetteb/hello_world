@@ -138,4 +138,34 @@ python hello.py
 ```
 
 
+### Scala
 
+#### In `scala` REPL interpreter
+
+```bash
+scala>println("Hello, world!")
+```
+
+#### Raw scala code
+
+```scala
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    println("Hello, world!")
+  }
+}
+```
+
+#### Use of code
+
+```bash
+scalac HelloWorld.scala
+```
+
+### Node.js
+
+#### In `node` interpreter
+
+```bash
+> console.log("Hello, world!")
+```
