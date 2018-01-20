@@ -121,13 +121,21 @@ you should see then
 Hello, world !
 ```
 
-### Python
+### Python (2.7)
+
+```python
+print "Hello, world !"
+```
+
+
+### Python (> 3.X)
 
 #### Raw Python code
 
 ```python
 print("Hello, World !")
 ```
+
 
 #### Use of code
 
