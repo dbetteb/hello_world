@@ -177,3 +177,21 @@ scalac HelloWorld.scala
 ```bash
 > console.log("Hello, world!")
 ```
+
+
+### Caml
+
+#### Raw OCaml code
+
+In file called `helloworld.ml`
+
+```ocaml
+print_string "Hello, world!\n";;
+```
+
+### Use of code
+
+```bash
+ocamlc -o hello hello.ml
+```
+
